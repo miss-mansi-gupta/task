@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica;
+    box-sizing: border-box;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1559297434-fae8a1916a79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+    
+  
+}
+
+
+
+#nav{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#left{
+    margin-top: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 30px;
+    margin-left: 20px;
+}
+#right{
+    display: flex;
+    
+}
+#right a{
+    
+    color: rgb(170, 167, 167);
+    margin-top: 24px;
+    text-decoration: none;
+    margin-right: 60px;
+    
+}
+#right i{
+    margin-top: 24px;
+    margin-right: 20px;
+    color: honeydew;
+    
+}
+
+#p1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-90%,-30%);
+    font-size: 120px;
+    color: rgb(255, 255, 255);
+    
+}
+#p2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(30%,-30%);
+    font-size: 120px;
+    color: green;
+}
+#p3{
+    position: absolute;
+    top: 48%;
+    left: 53%;
+    transform: translate(-90%,-30%);
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+#p4{
+    position: absolute;
+    top: 53%;
+    left: 58%;
+    transform: translate(-75%,-30%);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#background button{
+    width: 130px;
+    height: 33px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border-color: green;
+    margin-top: 26%;
+    margin-left: 40%;
+
+}
+
+
+
+
+
+
+#background2{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    display: block;
+}
+
+#iconbox{
+    position: absolute;
+    top: 95%;
+    left: 58%;
+    transform: translate(-75%,-30%);
+    width: 40%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(114, 114, 114);
+    border-radius: 5px;
+   
+    
+    
+    
+
+}
+#icon1{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 40px;
+    color: green;
+}
+#icon2{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    font-size: 40px;
+    color: green;
+}
+#icon3{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    font-size: 40px;
+    color: green;
+}
+#icon4{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    font-size: 40px;
+    color: green;
+}
+
+#aboutusdiv{
+    font-size: 80px;
+    font-weight: 600;
+    margin-left: 120px;
+    margin-top: 100px;
+    color: rgb(0, 0, 0);
+
+    
+}
+#line{
+    width: 90px;
+    height: 6px;
+    background-color: green;
+    margin-bottom: 50px;
+}
+
+#Pic{
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    width: 50%;
+    height: 80%;
+    background-image: url(https://images.unsplash.com/photo-1501700493788-fa1a4fc9fe62?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=981&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#li{
+    width: 30%;
+    margin-left: 40px;
+    font-size: 20px;
+    
+}
+#line1{
+    position: absolute;
+    top: 180%;
+    left: 2.6%;
+    width: 600px;
+    height: 2px;
+    background-color: rgb(221, 221, 221);
+}
+
+h5{
+    letter-spacing: 20px;
+    color: grey;
+    margin-top: 110px;
+    margin-left: 38px;
+}
+
+
